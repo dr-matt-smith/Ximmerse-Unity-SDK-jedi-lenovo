@@ -300,10 +300,10 @@ public class XHawkInput_HVR:XHawkInput {
 	public virtual void UpdatePlayArea() {
 		// TODO : 
 		if(m_PlayAreaGround==null) {
-			m_PlayAreaGround=m_PlayArea.FindChild("_Ground");
+			m_PlayAreaGround=m_PlayArea.Find("_Ground");
 		}
 		if(m_PlayAreaWall==null) {
-			m_PlayAreaWall=m_PlayArea.FindChild("_Walls");
+			m_PlayAreaWall=m_PlayArea.Find("_Walls");
 		}
 		//
 		Vector3 position=Vector3.zero;

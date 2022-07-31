@@ -54,11 +54,11 @@ namespace Ximmerse.UI {
 					this.m_Button.onClick.AddListener(OnButtonClicked);
 				}
 				//
-				t=this.transform.FindChild("Text Index");
+				t=this.transform.Find("Text Index");
 				if(t!=null) {
 					this.m_IndexText=t.GetComponent<Text>();
 				}
-				t=this.transform.FindChild("Text Value");
+				t=this.transform.Find("Text Value");
 				if(t!=null) {
 					this.m_ValueText=t.GetComponent<Text>();
 				}

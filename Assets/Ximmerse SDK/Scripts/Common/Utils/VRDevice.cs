@@ -76,8 +76,8 @@ namespace Ximmerse.VR{
 				}
 			}
 			if(useUnityVR) {// TODO : more method？
-				Log.i("VRDevice","UnityVR loads a device(model = \""+UnityEngine.VR.VRDevice.model+"\").");
-				switch(UnityEngine.VR.VRDevice.model) {
+				Log.i("VRDevice","UnityVR loads a device(model = \""+UnityEngine.XR.XRDevice.model+"\").");
+				switch(UnityEngine.XR.XRDevice.model) {
 					case "Oculus Rift DK2":
 						m_MethodRefreshRate=()=>(75.0f);
 					break;
@@ -98,7 +98,7 @@ namespace Ximmerse.VR{
 			if(m_CenterEyeAnchor==null) {
 				return Quaternion.identity;
 			}else if(useUnityVR) {// TODO : more method？
-				return UnityEngine.VR.InputTracking.GetLocalRotation(UnityEngine.VR.VRNode.CenterEye);
+				return UnityEngine.XR.InputTracking.GetLocalRotation(UnityEngine.XR.XRNode.CenterEye);
 			}else {
 				return m_CenterEyeAnchor.localRotation;
 			}

@@ -1,30 +1,57 @@
 fileFormatVersion: 2
 guid: ccf32ca24c38ff84faacd0945b93b26a
-timeCreated: 1464850050
-licenseType: Free
 TextureImporter:
-  fileIDToRecycleName:
-    21300020: XboxOne-Controller-480x316-1
-    21300022: XboxOne-Controller-Button-A
-    21300024: XboxOne-Controller-Button-B
-    21300026: XboxOne-Controller-Button-Guide
-    21300028: XboxOne-Controller-Button-Select
-    21300030: XboxOne-Controller-Button-Start
-    21300032: XboxOne-Controller-Button-X
-    21300034: XboxOne-Controller-Button-Y
-    21300036: XboxOne-Controller-Dpad
-    21300038: XboxOne-Controller-Thumb
-    21300040: MarkButton
-    21300042: xboxControllerLeftTrigger
-    21300044: xboxControllerRightTrigger
-  serializedVersion: 2
+  internalIDToNameTable:
+  - first:
+      213: 21300020
+    second: XboxOne-Controller-480x316-1
+  - first:
+      213: 21300022
+    second: XboxOne-Controller-Button-A
+  - first:
+      213: 21300024
+    second: XboxOne-Controller-Button-B
+  - first:
+      213: 21300026
+    second: XboxOne-Controller-Button-Guide
+  - first:
+      213: 21300028
+    second: XboxOne-Controller-Button-Select
+  - first:
+      213: 21300030
+    second: XboxOne-Controller-Button-Start
+  - first:
+      213: 21300032
+    second: XboxOne-Controller-Button-X
+  - first:
+      213: 21300034
+    second: XboxOne-Controller-Button-Y
+  - first:
+      213: 21300036
+    second: XboxOne-Controller-Dpad
+  - first:
+      213: 21300038
+    second: XboxOne-Controller-Thumb
+  - first:
+      213: 21300040
+    second: MarkButton
+  - first:
+      213: 21300042
+    second: xboxControllerLeftTrigger
+  - first:
+      213: 21300044
+    second: xboxControllerRightTrigger
+  externalObjects: {}
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
+    sRGBTexture: 1
     linearTexture: 0
-    correctGamma: 0
     fadeOut: 0
     borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
     mipMapFadeDistanceStart: 1
     mipMapFadeDistanceEnd: 3
   bumpmap:
@@ -33,37 +60,61 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
-  generateCubemap: 0
+  generateCubemap: 6
   cubemapConvolution: 0
-  cubemapConvolutionSteps: 7
-  cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -3
   maxTextureSize: 4096
   textureSettings:
+    serializedVersion: 2
     filterMode: -1
     aniso: 16
-    mipBias: -1
-    wrapMode: 1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
-  rGBM: 0
   compressionQuality: 50
-  allowsAlphaSplitting: 0
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
   alphaIsTransparency: 1
+  spriteTessellationDetail: -1
   textureType: 8
-  buildTargetSettings: []
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: MarkButton
+    - serializedVersion: 2
+      name: MarkButton
       rect:
         serializedVersion: 2
         x: 474
@@ -74,7 +125,17 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: XboxOne-Controller-480x316-1
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84305410000000000800000000000000
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XboxOne-Controller-480x316-1
       rect:
         serializedVersion: 2
         x: 1
@@ -84,40 +145,18 @@ TextureImporter:
       alignment: 9
       pivot: {x: 0.5, y: 0.5018182}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 74, y: -71}
-        - {x: 106, y: -92}
-        - {x: 155, y: -138}
-        - {x: 175, y: -138}
-        - {x: 189, y: -132}
-        - {x: 202, y: -114}
-        - {x: 205, y: -102}
-        - {x: 205, y: -45}
-        - {x: 203, y: -31}
-        - {x: 191, y: 12}
-        - {x: 166, y: 78}
-        - {x: 161, y: 92}
-        - {x: 144, y: 117}
-        - {x: 118, y: 132}
-        - {x: 100, y: 137}
-        - {x: 67, y: 137}
-        - {x: 51, y: 130}
-        - {x: -50, y: 129}
-        - {x: -65, y: 137}
-        - {x: -106, y: 137}
-        - {x: -142, y: 122}
-        - {x: -160, y: 95}
-        - {x: -188, y: 22}
-        - {x: -198, y: -11}
-        - {x: -205, y: -42}
-        - {x: -205, y: -107}
-        - {x: -199, y: -122}
-        - {x: -182, y: -138}
-        - {x: -153, y: -138}
-        - {x: -86, y: -74}
-        - {x: -74, y: -71}
-        - {x: 73, y: -70}
-    - name: XboxOne-Controller-Button-A
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43305410000000000800000000000000
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XboxOne-Controller-Button-A
       rect:
         serializedVersion: 2
         x: 412
@@ -128,7 +167,17 @@ TextureImporter:
       pivot: {x: -2.9666667, y: -0.36666667}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: XboxOne-Controller-Button-B
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63305410000000000800000000000000
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XboxOne-Controller-Button-B
       rect:
         serializedVersion: 2
         x: 412
@@ -139,7 +188,17 @@ TextureImporter:
       pivot: {x: -3.9333334, y: -1.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: XboxOne-Controller-Button-Guide
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83305410000000000800000000000000
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XboxOne-Controller-Button-Guide
       rect:
         serializedVersion: 2
         x: 459
@@ -149,19 +208,18 @@ TextureImporter:
       alignment: 9
       pivot: {x: 0.5, y: -2}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 19, y: 114}
-        - {x: 14, y: 119}
-        - {x: 11, y: 120}
-        - {x: -11, y: 120}
-        - {x: -20, y: 116}
-        - {x: -20, y: 84}
-        - {x: -19, y: 80}
-        - {x: 13, y: 80}
-        - {x: 19, y: 86}
-        - {x: 20, y: 89}
-        - {x: 20, y: 111}
-    - name: XboxOne-Controller-Button-Select
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3305410000000000800000000000000
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XboxOne-Controller-Button-Select
       rect:
         serializedVersion: 2
         x: 474
@@ -172,7 +230,17 @@ TextureImporter:
       pivot: {x: 1.95, y: -2.2}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: XboxOne-Controller-Button-Start
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3305410000000000800000000000000
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XboxOne-Controller-Button-Start
       rect:
         serializedVersion: 2
         x: 443
@@ -183,7 +251,17 @@ TextureImporter:
       pivot: {x: -1, y: -2.2}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: XboxOne-Controller-Button-X
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3305410000000000800000000000000
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XboxOne-Controller-Button-X
       rect:
         serializedVersion: 2
         x: 443
@@ -194,7 +272,17 @@ TextureImporter:
       pivot: {x: -2.0666666, y: -1.2666667}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: XboxOne-Controller-Button-Y
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04305410000000000800000000000000
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XboxOne-Controller-Button-Y
       rect:
         serializedVersion: 2
         x: 412
@@ -205,7 +293,17 @@ TextureImporter:
       pivot: {x: -3, y: -2.2}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: XboxOne-Controller-Dpad
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24305410000000000800000000000000
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XboxOne-Controller-Dpad
       rect:
         serializedVersion: 2
         x: 412
@@ -215,16 +313,18 @@ TextureImporter:
       alignment: 9
       pivot: {x: 1.328125, y: 0.703125}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -76, y: 19}
-        - {x: -85, y: 15}
-        - {x: -85, y: -30}
-        - {x: -69, y: -45}
-        - {x: -37, y: -45}
-        - {x: -21, y: -29}
-        - {x: -21, y: 8}
-        - {x: -26, y: 19}
-    - name: XboxOne-Controller-Thumb
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44305410000000000800000000000000
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XboxOne-Controller-Thumb
       rect:
         serializedVersion: 2
         x: 412
@@ -234,21 +334,18 @@ TextureImporter:
       alignment: 9
       pivot: {x: 2.7608695, y: -0.67391306}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -92, y: 77}
-        - {x: -116, y: 77}
-        - {x: -119, y: 75}
-        - {x: -125, y: 69}
-        - {x: -127, y: 66}
-        - {x: -127, y: 42}
-        - {x: -125, y: 39}
-        - {x: -119, y: 33}
-        - {x: -116, y: 31}
-        - {x: -92, y: 31}
-        - {x: -81, y: 37}
-        - {x: -81, y: 68}
-        - {x: -89, y: 75}
-    - name: xboxControllerLeftTrigger
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64305410000000000800000000000000
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xboxControllerLeftTrigger
       rect:
         serializedVersion: 2
         x: 477
@@ -258,12 +355,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -16.5, y: 32}
-        - {x: -16.5, y: -32}
-        - {x: 16.5, y: -32}
-        - {x: 16.5, y: 32}
-    - name: xboxControllerRightTrigger
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4305410000000000800000000000000
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xboxControllerRightTrigger
       rect:
         serializedVersion: 2
         x: 459
@@ -273,13 +376,29 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -16.5, y: 32}
-        - {x: -16.5, y: -32}
-        - {x: 16.5, y: -32}
-        - {x: 16.5, y: 32}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4305410000000000800000000000000
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

@@ -53,7 +53,7 @@ namespace Ximmerse.UI{
 			//
 			if(true) {
 			} else {
-				Transform c=m_Transform.FindChild("_VisibleObject");
+				Transform c=m_Transform.Find("_VisibleObject");
 				if(c!=null) {
 					m_SelfGo =c.gameObject;
 				}
@@ -68,7 +68,7 @@ namespace Ximmerse.UI{
 			if(parent!=null) {
 				if(true){
 					//
-					Transform c=parent.FindChild("_VisibleObject");
+					Transform c=parent.Find("_VisibleObject");
 					if(c!=null) {
 						parent=c;
 					}
@@ -79,7 +79,7 @@ namespace Ximmerse.UI{
 					m_Transform.localRotation=rotation;
 					m_Transform.localScale=scale;
 				}else{
-					Transform c=parent.FindChild("_VisibleObject");
+					Transform c=parent.Find("_VisibleObject");
 					if(c!=null) {
 						m_ParentGo=c.gameObject;
 					}else {

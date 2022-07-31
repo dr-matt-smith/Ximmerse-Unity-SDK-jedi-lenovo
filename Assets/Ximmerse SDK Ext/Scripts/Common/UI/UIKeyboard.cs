@@ -68,7 +68,7 @@ namespace Ximmerse.UI {
 				Transform cloneT=clone.transform,goT=go.transform;
 				//
 				if(text.StartsWith("@")) {
-					Transform t=cloneT.FindChild(text);
+					Transform t=cloneT.Find(text);
 					if(t!=null) {
 						t.gameObject.SetActive(true);
 					}

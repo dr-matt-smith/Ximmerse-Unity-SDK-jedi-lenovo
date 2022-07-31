@@ -115,7 +115,7 @@ namespace Ximmerse.ThirdParty {
 		[Header("Unity")]
 		public ControllerType type=ControllerType.Gamepad;
 		public int priority;
-		public VRNode node=VRNode.Head;
+		public UnityEngine.XR.XRNode node=UnityEngine.XR.XRNode.Head;
 		[Header("Axes")]
 		public Axis LeftThumbstickX  = new Axis{axis= 0,           };
 		public Axis LeftThumbstickY  = new Axis{axis= 1,invert=true};
@@ -219,8 +219,8 @@ namespace Ximmerse.ThirdParty {
 			state.axes[i++]=Input.GetAxis(RightThumbstickX.name);
 			state.axes[i++]=Input.GetAxis(RightThumbstickY.name);
 			//
-			Vector3 pos=InputTracking.GetLocalPosition(node);
-			Quaternion rot=InputTracking.GetLocalRotation(node);
+			Vector3 pos=UnityEngine.XR.InputTracking.GetLocalPosition(node);
+			Quaternion rot=UnityEngine.XR.InputTracking.GetLocalRotation(node);
 			//
 			TrackingResult trackingResult=TrackingResult.NotTracked;
 			if(pos!=Vector3.zero) {
